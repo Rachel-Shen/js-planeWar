@@ -1,0 +1,114 @@
+*{margin:0; padding:0;}
+html,body{width:100%; height:100%; overflow: hidden;}
+.score {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	font:16px/20px "";
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	color: red;
+}
+.main{
+	margin: auto;
+	height: 100%;
+	background: url(images/bg.jpg) repeat-y;
+	background-position-y: 0px;
+	width: 480px;
+	position: relative;
+}
+.options{
+	position: absolute;
+	list-style: none;
+	margin: auto;
+	left: 0; right: 0; top: 200px; 
+	width: 200px;
+	height: 300px;
+	
+}
+.options li{
+	border-radius: 5px;
+	border: 1px solid #000; 
+	box-shadow: 0 0 5px #000;
+	float: left;
+	width: 200px;
+	height: 75px;
+	text-align: center;
+	line-height: 75px;
+	margin-bottom: 20px;
+	font: "微软雅黑";
+	font-size: 28px;
+	cursor: pointer;
+}
+.logo{
+	position: absolute;
+	left: 0; right: 0; top: 25%; 
+	margin: auto;
+	width: 428px; height: 104px;
+	background: url(images/logo.png) no-repeat;	
+}
+.loading{
+	position: absolute;
+	left: 0; right: 0; top: 60%;
+	margin: auto;
+	width: 192px; height: 41px;
+	background: url(images/loading1.png) no-repeat;
+}
+.my-warplain{
+	position: absolute;
+	width: 98px; height: 122px;
+	background: url(images/me.png) no-repeat;
+	cursor: none;
+}
+.bullet{
+	position: absolute;
+	width: 7px; height: 18px;
+	background: url(images/bullet.png) no-repeat;
+}
+.bullet_die{
+	position: absolute;
+	width: 41px; height: 39px;
+	background: url(images/die1.png) no-repeat;
+	margin-left: -18px;
+}
+.enemy-small{
+	position: absolute;
+	z-index: 1;
+	width: 59px; height: 36px;
+	background: url(images/plane1.png) no-repeat;
+}
+.enemy-middle{
+	position: absolute;
+	width: 70px; height: 92px;
+	background: url(images/plane2.png) no-repeat;
+}
+.enemy-large{
+	position: absolute;
+	width:165px; height: 256px;
+	background: url(images/plane3.png) no-repeat;
+}
+.supply{
+	position: absolute;
+	width:30px; height: 52px;
+	background: url(images/supply.png) no-repeat;
+	background-size: 30px 52px;
+}
+.over{
+	width:480px; 
+	height: 100px; 
+	color:#8f9293;
+	text-align: center; 
+	font: 50px/2 "";
+	position: absolute;
+	top:45%;
+}
+.life img {
+	width:20px; 
+	height: 20px; 
+}
+.xin {
+	list-style: none;
+	float: right;
+	margin: 5px;
+}
